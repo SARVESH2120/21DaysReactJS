@@ -1,0 +1,22 @@
+part-1
+
+npm init -- initialise a npm package in our project
+there are two type of dependecies 1]dev dependecy(require in development phase) [2] normal dependency(also use in production phase)
+caret --> for minor updates (2.8.4--2.8.9)
+tilde --> for major updates (2.8.4 -- 4.2.3)
+
+sha integrity --> whatever is in my machine is same deoploy on my production thats the role of sha key(aka has);;;
+
+package.json and package-lock.json difference(locks the current file)
+
+transitive dependency(one package depens on one another);;
+
+In our project every package has it on package. json(not only one package.json)
+
+node modules is a collection of dependencies...
+We shouldn't put node modules in github..   if we don't want to push push it in git ignore..
+if we have package.json and package-lock.json then we generate all the node modules...
+
+
+part-2
+
