@@ -20,3 +20,8 @@ if we have package.json and package-lock.json then we generate all the node modu
 
 part-2
 
+
+npx parcel index.html -->igniting our app(host our app)
+
+
+
