@@ -24,4 +24,38 @@ part-2
 npx parcel index.html -->igniting our app(host our app)
 
 
+parcel doing in background
+-Dev Build
+-Local Server
+-HMR(Hot Module Replacement)
+-File Watching Algorithm -- written in C++
+-Caching(Faster Build)
+-Image Optimisation
+-Minification of our file
+-Bundling
+-Compress
+-Consistent Hashing
+-Code Splittiing
+-Diagnostic(Beautify error)
+-Error Handling
+-HTTP's
+-Tree Shaking (remove unused code for it)
+-Transpilation
+-Lazy Mode
+-Different dev and prod Build
+
+Read Parcel Documentation
+Browserlist-->https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
+
+How your app is fast ??
+How it is optimised??
+
+
+
+
+
+
+
+
+
 
