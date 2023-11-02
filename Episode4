@@ -1,1 +1,4 @@
 Creating a food ordering App
+
+--When we render the element it will replace not append.
+
