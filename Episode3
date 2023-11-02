@@ -1,1 +1,64 @@
-Creating a sub branch and learn about nothhing but react
+making a script of
+-npm run start --> npm start
+-npm run build
+
+//React Element
+const heading = React.createElement("h1", {}, "Namaste India");
+
+React.creatElement =>ReactElement-JS Object(RENDER) => HTMLelement
+
+//Learning about JSX
+
+const heading = React.createElement("h1" ,{id:"heading"}, "Nmaste React");
+console.log(heading);
+
+const jsxHeading = (<h1>Namaste React using JSX</h1>);
+console.log(jsxHeading);
+
+Both are same creating a element using react core and also using a heading using jsx....
+
+the jsx code gets transpiled before going to js engine by babel 
+
+JSX ==> React.creatElement =>ReactElement-JS Object(RENDER) => HTMLelement
+
+In JSX we give attribute in camelCase structure..  ie. className
+H.W --> findout various attribute in JSX... and how to we give a attribute..
+
+Two of creating a component
+-Class Based Component
+-Functional Component
+
+
+//React Functional Component
+If we creating a component it should start eith the capital letter..
+A functional component is a normal javascript function which returns some peice of code...
+
+
+
+//React Element
+const heading = (
+    <h1 className="head">Namaste React</h1>
+)
+
+//React Functional Component
+
+const HeadingComponent = () =>{
+    return (
+        <h1>Hello Namaste React from functional Component</h1>
+    )
+} 
+
+root.render(<HeadingComponent />)
+
+
+{--In this paranthesis we can give any peice of JS code...}
+
+XSS attack by api
+JSX santize our code
+
+
+
+
+
+
+
