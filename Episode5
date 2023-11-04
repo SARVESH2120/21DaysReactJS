@@ -1,1 +1,9 @@
-as
+Read a react file structure!!!!!!!!!!!!!!
+
+Never put hard-coded data in components file...
+
+Two types of import an d export
+-NAmed and default (import / export)
+
+
+can we use default export alog with named import
