@@ -1,0 +1,55 @@
+Restrucutring the app..
+creating different files..
+learned about default and named export/imports...
+
+Hooks(useState)
+Adding a filter function to find a top rated restaurant
+
+import RestaurantCard from "./RestaurantCard";
+import resList from "../utils/mockData"
+import { useState } from "react";
+
+const Body =() =>{
+
+  const [listOfRestaurants, setlistOfRestaurant] = useState(resList)
+
+    return(
+     <div className="body">
+       <div className="filter">
+        <button className="filter-btn" onClick={() => {
+          console.log("button clicked");
+          const filteredList = listOfRestaurants.filter((res) => res.info.avgRating > 4.4 );
+          setlistOfRestaurant(filteredList);
+        }}
+        >
+          Top Rated Restaurants</button>
+       </div>
+       <div className="res-container">
+         {/* ReastaurantCard  */}
+       {
+         listOfRestaurants.map((restaurant) => (
+           <RestaurantCard key={restaurant.info.id} resData={restaurant} />
+         ))
+       }
+      
+     
+     
+       </div>
+     </div>
+    )
+   }
+
+   export default Body;
+
+   //React Hooks
+   // (Normal JS utility functions)
+   // - useState() - Superpowerful State Variable in react
+   // - useEffect()
+   //Whenever a state variable updated reacts re render the component
+   //React sync data layer with ui layer
+
+   //reconciliation algorithm(react fiber)-- 
+   //on th ui suppose we have a dom now ui changes to 7 to 3 cards (recat create a virtual dom
+   //(not an actusla dom(actual dom are tags div, img div etc)(virtual dom is a representation of a actual dom) )
+
+// Diff algorithm  
