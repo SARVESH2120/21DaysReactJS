@@ -1,0 +1,46 @@
+UseEffect
+
+
+useeffect is called after every render of the component.
+useefect has two argument-- callback function and dependecy array
+//dependecy arrays changes the render behaviour
+Case-1 }} if no depedency array ==> useeffect called on every render.
+Case-2 }} if depedency array is empty = [] => useeffect is called on initial render(just once).
+Case-3}} if dependecy array is [btnNameReact] ==> every time btnNameReact is updated.
+
+
+UseState
+
+
+
+
+Never create hooks{useState} outside of component..
+It is used to create a local state variable inside your functional component...
+Always try to call a hook on top
+never used inside a if-else and for-loop and function
+Only create inside the functional component and also place a  top of component
+
+
+
+//Starting Routing
+
+Whenever we have to create routes we have to create a routing configuration
+learn about
+-createBrowserRouter
+-ReactProivder
+-Outlet
+
+why we can't use anchor tag??
+We can navigate to another page without reloding the whole page..
+By use of link from react router dom
+There is difference between reloading the page and refreshing the page....
+Our react is a SPA..(single page application)..
+
+two types of routing 
+-client side routing and server side routing
+
+Learn about dynamic routing--
+
+
+
+
